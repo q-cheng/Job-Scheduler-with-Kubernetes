@@ -9,6 +9,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 import argparse
+import os
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description='Visualization tool for batch job scheduler.')
@@ -73,6 +74,6 @@ if __name__ == "__main__":
 	plt.legend((p[0], rf[0], rs[0]), (header[0], header[1], header[2]), fontsize = 12, ncol = 4, framealpha = 0, fancybox = True)
 	plt.gca().invert_yaxis()
 	plt.grid(linestyle='--')
-	plt.savefig('trace.pdf')
+	plt.savefig('%s.pdf' % os.path.splitext(csv_file)[0])
 
 

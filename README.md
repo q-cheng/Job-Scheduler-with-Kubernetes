@@ -1,7 +1,7 @@
 # p32 Starter
 
 The starter includes:
-  * `src/` - skeleton implementations of the 3 policies you need to implement
+  * `src/` - skeleton implementations of the policy you need to implement
   * `bin/` 
     * `p32test` - program to test your policy (run `bin/p32test -h` for more details)
     * `p32submit` - program to submit your policy (run `bin/p32submit -h` for more details)

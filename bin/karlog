@@ -1,5 +1,0 @@
-#!/bin/bash
-FLAG=
-# if stdout is tty, run interactively
-[ -t 1 ] && FLAG=-f 
-kubectl logs -n kube-system $FLAG pod/$(kubectl get pod -l app=kar-scheduler -n kube-system -o json | jq -r '.items[0].metadata.name') 

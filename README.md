@@ -5,7 +5,6 @@ The starter includes:
   * `bin/` 
     * `p32test` - program to test your policy (run `bin/p32test -h` for more details)
     * `p32submit` - program to submit your policy (run `bin/p32submit -h` for more details)
-    * `karlog` - shows log of the scheduler (including all the scheduling decisions)
     * `job-mon` and `job-plot` - export jobs status into CSV and plot it graphically into a PDF (notice that you genereally don't need to run them manually - `p32test` and `p32submit` will do everything for you).
   * `traces/` - sample traces. Each line of each trace comprises timestamp (in seconds, relative to the time the trace started to run), job type (see table in the writeup in TPZ), number of tasks (nodes), and the value 0.
 

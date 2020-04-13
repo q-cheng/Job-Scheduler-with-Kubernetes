@@ -30,7 +30,9 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 			}
 		}
 	}
-	jobTimeBindArray = sortJobTimeList(jobTimeDic)
+	if len(jobTimeDic) > 0 {
+		jobTimeBindArray = sortJobTimeList(jobTimeDic)
+	}
 	for len(jobTimeBindArray) > 0 {
 		job := jobTimeBindArray[0].Job
 		if job.Type == "GPU" {

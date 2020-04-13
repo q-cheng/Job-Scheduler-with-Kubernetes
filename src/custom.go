@@ -2,29 +2,46 @@ package allocate
 
 import (
 	"github.com/kubernetes-sigs/kube-batch/pkg/scheduler/api"
-	"math/rand"
+	"time"
 )
 
 func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api.NodeInfo {
-	// TODO: UPDATE THIS FUNCTION
 	allocation := make(map[*api.TaskInfo]*api.NodeInfo)
-	i := 0
-	job := jobs[rand.Intn(len(jobs))]
-	for _, task := range job.TaskStatusIndex[api.Pending] {
-		for i<len(nodes) && len(nodes[i].Tasks) > 0 {
-			// skip nodes that have tasks running
-			i++
+	jobTimeDic := make(map[*api.JobInfo]int)
+	flag := false
+
+	var jobTimeBindArray []jobTimeBind
+
+	for _, job := range jobs {
+		if job.Type == "GPU" {
+			flag, _ = GPUJobs(job, nodes)
+		} else {
+			flag, _ = MPIJobs(job, nodes)
 		}
-		if i>=len(nodes) {
-			// out of nodes
+		if flag == false {
+			jobTimeDic[job] = job.SlowDuration + int(time.Now().Unix()) - int(job.CreationTime.ProtoTime().Seconds)
+		} else {
+			jobTimeDic[job] = job.FastDuration + int(time.Now().Unix()) - int(job.CreationTime.ProtoTime().Seconds)
+		}
+	}
+	jobTimeBindArray = sortJobTimeList(jobTimeDic)
+	for len(jobTimeBindArray) > 0 {
+		job := jobTimeBindArray[0].Job
+		if job.Type == "GPU" {
+			_, allocation = GPUJobs(job, nodes)
+		} else {
+			_, allocation = MPIJobs(job, nodes)
+		}
+		if len(allocation) == len(job.TaskStatusIndex[api.Pending]) {
 			break
+		} else {
+			jobTimeBindArray = jobTimeBindArray[1:]
 		}
-		allocation[task] = nodes[i]
-		i++
+		if len(allocation) != len(job.TaskStatusIndex[api.Pending]) {
+			// could not allocate all the tasks, return empty allocation
+			allocation = make(map[*api.TaskInfo]*api.NodeInfo)
+		}
 	}
-	if len(job.TaskStatusIndex[api.Pending]) != len(allocation) {
-		// could not allocate all the tasks, return empty allocation
-		allocation = make(map[*api.TaskInfo]*api.NodeInfo)
-	}
+
 	return allocation
 }

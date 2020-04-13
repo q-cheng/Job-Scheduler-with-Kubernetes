@@ -1,0 +1,415 @@
+[
+    {
+        "input": {
+            "machines": [
+                0, 
+                1, 
+                2, 
+                3, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 48, 
+                    "jobID": 0, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 91
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 0, 
+            "machines": [
+                0, 
+                3
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                1, 
+                2, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 17, 
+                    "jobID": 1, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 33
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 1, 
+            "machines": [
+                1, 
+                2
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 17, 
+                    "jobID": 2, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 33
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 2, 
+            "machines": [
+                12, 
+                13
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                1, 
+                2, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                14, 
+                15, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 29, 
+                    "jobID": 3, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 56
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 3, 
+            "machines": [
+                6, 
+                10, 
+                16
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                1, 
+                2, 
+                4, 
+                5, 
+                7, 
+                8, 
+                9, 
+                11, 
+                14, 
+                15, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 7, 
+                    "jobID": 4, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 13
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 5, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 4, 
+            "machines": [
+                9, 
+                14, 
+                17
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                1, 
+                2, 
+                4, 
+                5, 
+                7, 
+                8, 
+                11, 
+                15, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 17, 
+                    "jobID": 5, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 5, 
+            "machines": [
+                5, 
+                15, 
+                19, 
+                21
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                1, 
+                2, 
+                4, 
+                7, 
+                8, 
+                11, 
+                18, 
+                20
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 7, 
+                    "jobID": 6, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 13
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 6, 
+            "machines": [
+                1, 
+                2
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                0, 
+                1, 
+                2, 
+                3, 
+                4, 
+                7, 
+                8, 
+                9, 
+                11, 
+                12, 
+                13, 
+                14, 
+                17, 
+                18, 
+                20
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 21, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 41
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 7, 
+            "machines": [
+                0, 
+                2
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                1, 
+                3, 
+                4, 
+                7, 
+                8, 
+                9, 
+                11, 
+                12, 
+                13, 
+                14, 
+                17, 
+                18, 
+                20
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 29, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 56
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 8, 
+            "machines": [
+                1, 
+                3
+            ]
+        }
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "finalState": "FINISHED", 
+        "jobId": 0, 
+        "queueTime": 0, 
+        "runTime": 50, 
+        "submitTime": 0, 
+        "utility": 150
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 1, 
+        "queueTime": 3, 
+        "runTime": 17, 
+        "submitTime": 2, 
+        "utility": 180
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 2, 
+        "queueTime": 0, 
+        "runTime": 37, 
+        "submitTime": 11, 
+        "utility": 163
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 3, 
+        "queueTime": 5, 
+        "runTime": 56, 
+        "submitTime": 23, 
+        "utility": 139
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 4, 
+        "queueTime": 5, 
+        "runTime": 15, 
+        "submitTime": 26, 
+        "utility": 180
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 5, 
+        "queueTime": 9, 
+        "runTime": 34, 
+        "submitTime": 28, 
+        "utility": 157
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 6, 
+        "queueTime": 2, 
+        "runTime": 9, 
+        "submitTime": 37, 
+        "utility": 189
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 7, 
+        "queueTime": 1, 
+        "runTime": 21, 
+        "submitTime": 56, 
+        "utility": 178
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 8, 
+        "queueTime": 2, 
+        "runTime": 30, 
+        "submitTime": 70, 
+        "utility": 168
+    }
+]

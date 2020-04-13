@@ -126,6 +126,6 @@ return retBindList
 
 
 type jobTimeBind struct {
-Job   *api.JobInfo
-Time int
+	Job   *api.JobInfo
+	Time int
 }

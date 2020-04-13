@@ -19,9 +19,15 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 			flag, _ = MPIJobs(job, nodes)
 		}
 		if flag == false {
-			jobTimeDic[job] = job.SlowDuration + int(time.Now().Unix()) - int(job.CreationTime.ProtoTime().Seconds)
+			temp := job.SlowDuration + int(time.Now().Unix()) - int(job.CreationTime.ProtoTime().Seconds)
+			if temp < 200 {
+				jobTimeDic[job] = temp
+			}
 		} else {
-			jobTimeDic[job] = job.FastDuration + int(time.Now().Unix()) - int(job.CreationTime.ProtoTime().Seconds)
+			temp := job.FastDuration + int(time.Now().Unix()) - int(job.CreationTime.ProtoTime().Seconds)
+			if temp < 200 {
+				jobTimeDic[job] = temp
+			}
 		}
 	}
 	jobTimeBindArray = sortJobTimeList(jobTimeDic)

@@ -8,8 +8,8 @@ import (
 func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api.NodeInfo {
 	allocation := make(map[*api.TaskInfo]*api.NodeInfo)
 	jobTimeDic := make(map[*api.JobInfo]int)
-	flag := false
 
+	var flag bool
 	var jobTimeBindArray []jobTimeBind
 
 	for _, job := range jobs {
@@ -39,6 +39,5 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 			allocation = make(map[*api.TaskInfo]*api.NodeInfo)
 		}
 	}
-
 	return allocation
 }

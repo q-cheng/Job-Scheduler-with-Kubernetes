@@ -36,9 +36,6 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 			break
 		} else {
 			jobTimeBindArray = jobTimeBindArray[1:]
-		}
-		if len(allocation) != len(job.TaskStatusIndex[api.Pending]) {
-			// could not allocate all the tasks, return empty allocation
 			allocation = make(map[*api.TaskInfo]*api.NodeInfo)
 		}
 	}

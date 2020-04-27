@@ -35,7 +35,7 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 		jobTimeBindArray = sortJobTimeList(jobTimeDic)
 		jobTimeBindArrayByMachineNum = sortByTaskNum(jobTimeBindArray)
 	}
-	if len(nodes) >= 12 {
+	if len(nodes) >= 13 {
 		// When there is more machines, schedule according to the utility.
 		for len(jobTimeBindArray) > 0 {
 			job := jobTimeBindArray[0].Job

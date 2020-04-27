@@ -21,7 +21,7 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 		}
 		if flag == false {
 			temp := job.SlowDuration + int(time.Now().Unix()) - int(job.CreationTime.ProtoTime().Seconds)
-			if temp < 260 {
+			if temp < 180 {
 				jobTimeDic[job] = temp
 			}
 		} else {
@@ -35,7 +35,7 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 		jobTimeBindArray = sortJobTimeList(jobTimeDic)
 		jobTimeBindArrayByMachineNum = sortByTaskNum(jobTimeBindArray)
 	}
-	if len(nodes) >= 11 {
+	if len(nodes) >= 12 {
 		// When there is more machines, schedule according to the utility.
 		for len(jobTimeBindArray) > 0 {
 			job := jobTimeBindArray[0].Job

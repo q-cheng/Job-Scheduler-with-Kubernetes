@@ -11,7 +11,7 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 
 	var flag bool
 	var jobTimeBindArray []jobTimeBind
-	var jobTimeBindArrayByMachineNum []jobTimeBind
+	var jobTimeBindArrayByMachineNum []jobLengthBind
 
 	for _, job := range jobs {
 		if job.Type == "GPU" {

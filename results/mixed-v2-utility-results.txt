@@ -1,0 +1,338 @@
+[
+    {
+        "finalState": "FINISHED", 
+        "jobId": 0, 
+        "queueTime": 0, 
+        "runTime": 49, 
+        "submitTime": 0, 
+        "utility": 151
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 1, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 0, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 2, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 0, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 3, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 1, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 4, 
+        "queueTime": 13, 
+        "runTime": 37, 
+        "submitTime": 1, 
+        "utility": 150
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 5, 
+        "queueTime": 22, 
+        "runTime": 93, 
+        "submitTime": 1, 
+        "utility": 85
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 6, 
+        "queueTime": 23, 
+        "runTime": 95, 
+        "submitTime": 1, 
+        "utility": 82
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 7, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 1, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 8, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 2, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 9, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 2, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 10, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 2, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 11, 
+        "queueTime": 18, 
+        "runTime": 70, 
+        "submitTime": 2, 
+        "utility": 112
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 12, 
+        "queueTime": 2, 
+        "runTime": 15, 
+        "submitTime": 3, 
+        "utility": 183
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 13, 
+        "queueTime": 10, 
+        "runTime": 21, 
+        "submitTime": 3, 
+        "utility": 169
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 14, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 23, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 15, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 24, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 16, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 24, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 17, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 24, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 18, 
+        "queueTime": 99, 
+        "runTime": 39, 
+        "submitTime": 25, 
+        "utility": 62
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 19, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 26, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 20, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 22, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 21, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 22, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 22, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 22, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 23, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 23, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 24, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 25, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 25, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 26, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 26, 
+        "queueTime": 12, 
+        "runTime": 12, 
+        "submitTime": 27, 
+        "utility": 176
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 27, 
+        "queueTime": 56, 
+        "runTime": 31, 
+        "submitTime": 28, 
+        "utility": 113
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 28, 
+        "queueTime": 94, 
+        "runTime": 48, 
+        "submitTime": 49, 
+        "utility": 58
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 29, 
+        "queueTime": 105, 
+        "runTime": 66, 
+        "submitTime": 51, 
+        "utility": 29
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 30, 
+        "queueTime": 59, 
+        "runTime": 50, 
+        "submitTime": 51, 
+        "utility": 91
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 31, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 51, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 32, 
+        "queueTime": 26, 
+        "runTime": 36, 
+        "submitTime": 51, 
+        "utility": 138
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 33, 
+        "queueTime": 121, 
+        "runTime": 49, 
+        "submitTime": 52, 
+        "utility": 30
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 34, 
+        "queueTime": 116, 
+        "runTime": 49, 
+        "submitTime": 53, 
+        "utility": 35
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 35, 
+        "queueTime": 127, 
+        "runTime": 52, 
+        "submitTime": 53, 
+        "utility": 21
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 36, 
+        "queueTime": 124, 
+        "runTime": 52, 
+        "submitTime": 53, 
+        "utility": 24
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 37, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 54, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "UNFINISHED", 
+        "jobId": 38, 
+        "queueTime": 99999, 
+        "runTime": 0, 
+        "submitTime": 54, 
+        "utility": 0
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 39, 
+        "queueTime": 44, 
+        "runTime": 51, 
+        "submitTime": 55, 
+        "utility": 105
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 40, 
+        "queueTime": 1, 
+        "runTime": 19, 
+        "submitTime": 55, 
+        "utility": 180
+    }, 
+    {
+        "finalState": "FINISHED", 
+        "jobId": 41, 
+        "queueTime": 24, 
+        "runTime": 23, 
+        "submitTime": 49, 
+        "utility": 153
+    }
+]

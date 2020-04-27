@@ -1,0 +1,4740 @@
+[
+    {
+        "input": {
+            "machines": [
+                0, 
+                1, 
+                2, 
+                3, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 44, 
+                    "jobID": 0, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 0, 
+            "machines": [
+                0, 
+                1, 
+                2, 
+                3
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 4, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 5, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 6, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 11, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 11, 
+                    "jobID": 12, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 17
+                }, 
+                {
+                    "duration": 20, 
+                    "jobID": 13, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 31
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 12, 
+            "machines": [
+                5, 
+                7, 
+                8, 
+                9
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                4, 
+                6, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 4, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 5, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 6, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 11, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 20, 
+                    "jobID": 13, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 31
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 13, 
+            "machines": [
+                10, 
+                13, 
+                14, 
+                15
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                4, 
+                6, 
+                11, 
+                12, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 4, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 5, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 6, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 11, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 4, 
+            "machines": [
+                11, 
+                16, 
+                19, 
+                21
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                4, 
+                6, 
+                12, 
+                17, 
+                18, 
+                20
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 5, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 6, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 11, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 11, 
+            "machines": [
+                4, 
+                6, 
+                17, 
+                18
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                12, 
+                20
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 5, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 6, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 5, 
+            "machines": [
+                20
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                12
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 6, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 6, 
+            "machines": [
+                12
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                5, 
+                7, 
+                8, 
+                9
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 18, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 11, 
+                    "jobID": 26, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 17
+                }, 
+                {
+                    "duration": 20, 
+                    "jobID": 27, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 31
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 26, 
+            "machines": [
+                5, 
+                7, 
+                8, 
+                9
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                0, 
+                1, 
+                2, 
+                3, 
+                5, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                13, 
+                14, 
+                15, 
+                16, 
+                19, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 18, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 20, 
+                    "jobID": 27, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 31
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 28, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 20, 
+                    "jobID": 41, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 31
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 29, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 30, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 32, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 34, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 39, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 11, 
+                    "jobID": 40, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 17
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 40, 
+            "machines": [
+                0, 
+                1, 
+                2, 
+                3
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                5, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                13, 
+                14, 
+                15, 
+                16, 
+                19, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 18, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 20, 
+                    "jobID": 27, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 31
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 28, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 20, 
+                    "jobID": 41, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 31
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 29, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 30, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 32, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 34, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 39, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 41, 
+            "machines": [
+                5, 
+                7, 
+                8, 
+                9
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                10, 
+                11, 
+                13, 
+                14, 
+                15, 
+                16, 
+                19, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 18, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 20, 
+                    "jobID": 27, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 31
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 28, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 29, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 30, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 32, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 34, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 39, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 32, 
+            "machines": [
+                10, 
+                11, 
+                14, 
+                16
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                13, 
+                15, 
+                19, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 18, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 20, 
+                    "jobID": 27, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 31
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 28, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 29, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 30, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 34, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 39, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 27, 
+            "machines": [
+                13, 
+                15, 
+                19, 
+                21
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                0, 
+                1, 
+                2, 
+                3, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                17, 
+                18
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 18, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 28, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 29, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 30, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 34, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 39, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 39, 
+            "machines": [
+                0, 
+                1, 
+                2, 
+                3
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                17, 
+                18
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 18, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 28, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 29, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 30, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 34, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 30, 
+            "machines": [
+                4, 
+                5, 
+                6, 
+                9
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                7, 
+                8, 
+                17, 
+                18
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 17, 
+                    "jobID": 18, 
+                    "jobType": "GPU", 
+                    "k": 4, 
+                    "slowDuration": 33
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 28, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 29, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 34, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 18, 
+            "machines": [
+                7, 
+                8, 
+                17, 
+                18
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                16, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 28, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 29, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 34, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 28, 
+            "machines": [
+                11, 
+                13, 
+                14, 
+                15
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                10, 
+                12, 
+                16, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 29, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 34, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 29, 
+            "machines": [
+                16, 
+                19, 
+                20, 
+                21
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                0, 
+                1, 
+                2, 
+                3, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                12, 
+                17, 
+                18
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 34, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 34, 
+            "machines": [
+                3
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                0, 
+                1, 
+                2, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                12, 
+                17, 
+                18
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 33, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 33, 
+            "machines": [
+                0
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                1, 
+                2, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                12, 
+                17, 
+                18
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 36, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 36, 
+            "machines": [
+                1
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                2, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                12, 
+                17, 
+                18
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 35, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": {
+            "jobID": 35, 
+            "machines": [
+                2
+            ]
+        }
+    }, 
+    {
+        "input": {
+            "machines": [
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                12, 
+                17, 
+                18
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": null
+    }, 
+    {
+        "input": {
+            "machines": [
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                17, 
+                18
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": null
+    }, 
+    {
+        "input": {
+            "machines": [
+                0, 
+                3, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": null
+    }, 
+    {
+        "input": {
+            "machines": [
+                0, 
+                1, 
+                3, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": null
+    }, 
+    {
+        "input": {
+            "machines": [
+                0, 
+                1, 
+                2, 
+                3, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15, 
+                16, 
+                17, 
+                18, 
+                19, 
+                20, 
+                21
+            ], 
+            "numLargeMachineRacks": 1, 
+            "queue": [
+                {
+                    "duration": 64, 
+                    "jobID": 1, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 2, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 3, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 7, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 8, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 9, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 10, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 20, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 21, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 50, 
+                    "jobID": 22, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 97
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 14, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 23, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 64, 
+                    "jobID": 15, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 98
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 16, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 17, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 24, 
+                    "jobType": "GPU", 
+                    "k": 3, 
+                    "slowDuration": 186
+                }, 
+                {
+                    "duration": 48, 
+                    "jobID": 19, 
+                    "jobType": "GPU", 
+                    "k": 1, 
+                    "slowDuration": 91
+                }, 
+                {
+                    "duration": 44, 
+                    "jobID": 25, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 68
+                }, 
+                {
+                    "duration": 83, 
+                    "jobID": 31, 
+                    "jobType": "MPI", 
+                    "k": 4, 
+                    "slowDuration": 128
+                }, 
+                {
+                    "duration": 79, 
+                    "jobID": 37, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 155
+                }, 
+                {
+                    "duration": 95, 
+                    "jobID": 38, 
+                    "jobType": "GPU", 
+                    "k": 2, 
+                    "slowDuration": 186
+                }
+            ], 
+            "rack_cap": [
+                4, 
+                6, 
+                6, 
+                6
+            ]
+        }, 
+        "output": null
+    }
+]

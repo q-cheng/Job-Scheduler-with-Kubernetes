@@ -11,6 +11,7 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 
 	var flag bool
 	var jobTimeBindArray []jobTimeBind
+	var jobTimeBindArrayByMachineNum []jobTimeBind
 
 	for _, job := range jobs {
 		if job.Type == "GPU" {
@@ -20,31 +21,51 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 		}
 		if flag == false {
 			temp := job.SlowDuration + int(time.Now().Unix()) - int(job.CreationTime.ProtoTime().Seconds)
-			if temp < 240 {
+			if temp < 200 {
 				jobTimeDic[job] = temp
 			}
 		} else {
 			temp := job.FastDuration + int(time.Now().Unix()) - int(job.CreationTime.ProtoTime().Seconds)
-			if temp < 240 {
+			if temp < 200 {
 				jobTimeDic[job] = temp
 			}
 		}
 	}
 	if len(jobTimeDic) > 0 {
 		jobTimeBindArray = sortJobTimeList(jobTimeDic)
+		jobTimeBindArrayByMachineNum = sortByTaskNum(jobTimeBindArray)
 	}
-	for len(jobTimeBindArray) > 0 {
-		job := jobTimeBindArray[0].Job
-		if job.Type == "GPU" {
-			_, allocation = GPUJobs(job, nodes)
-		} else {
-			_, allocation = MPIJobs(job, nodes)
+	if len(nodes) > 12 {
+		// When there is more machines, schedule according to the utility.
+		for len(jobTimeBindArray) > 0 {
+			job := jobTimeBindArray[0].Job
+			if job.Type == "GPU" {
+				_, allocation = GPUJobs(job, nodes)
+			} else {
+				_, allocation = MPIJobs(job, nodes)
+			}
+			if len(allocation) == len(job.TaskStatusIndex[api.Pending]) {
+				break
+			} else {
+				jobTimeBindArray = jobTimeBindArray[1:]
+				allocation = make(map[*api.TaskInfo]*api.NodeInfo)
+			}
 		}
-		if len(allocation) == len(job.TaskStatusIndex[api.Pending]) {
-			break
-		} else {
-			jobTimeBindArray = jobTimeBindArray[1:]
-			allocation = make(map[*api.TaskInfo]*api.NodeInfo)
+	} else {
+		// When there is not enough machines schedule according to the machines required for each task.
+		for len(jobTimeBindArrayByMachineNum) > 0 {
+			job := jobTimeBindArrayByMachineNum[0].Job
+			if job.Type == "GPU" {
+				_, allocation = GPUJobs(job, nodes)
+			} else {
+				_, allocation = MPIJobs(job, nodes)
+			}
+			if len(allocation) == len(job.TaskStatusIndex[api.Pending]) {
+				break
+			} else {
+				jobTimeBindArrayByMachineNum = jobTimeBindArrayByMachineNum[1:]
+				allocation = make(map[*api.TaskInfo]*api.NodeInfo)
+			}
 		}
 	}
 	return allocation

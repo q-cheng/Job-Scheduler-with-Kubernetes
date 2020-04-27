@@ -54,7 +54,7 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 	} else {
 		// When there is not enough machines schedule according to the machines required for each task.
 		for len(jobTimeBindArrayByMachineNum) > 0 {
-			job := jobTimeBindArrayByMachineNum[0].Job
+			job := jobTimeBindArrayByMachineNum[len(jobTimeBindArrayByMachineNum) - 1].Job
 			if job.Type == "GPU" {
 				_, allocation = GPUJobs(job, nodes)
 			} else {
@@ -63,7 +63,7 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 			if len(allocation) == len(job.TaskStatusIndex[api.Pending]) {
 				break
 			} else {
-				jobTimeBindArrayByMachineNum = jobTimeBindArrayByMachineNum[1:]
+				jobTimeBindArrayByMachineNum = jobTimeBindArrayByMachineNum[:len(jobTimeBindArrayByMachineNum) - 1]
 				allocation = make(map[*api.TaskInfo]*api.NodeInfo)
 			}
 		}

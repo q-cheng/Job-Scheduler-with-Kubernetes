@@ -125,14 +125,14 @@ func sortJobTimeList(nodeTimeMap map[*api.JobInfo]int) []jobTimeBind {
 }
 
 // Sort job by task number in descending order
-func sortByTaskNum(inputJobTimeBind []jobTimeBind) []jobTimeBind{
-	var retBindList []jobTimeBind
-	for index := range inputJobTimeBind {
+func sortByTaskNum(inputJobTimeBind []jobTimeBind) []jobLengthBind{
+	var retBindList []jobLengthBind
+	for jobTime := range inputJobTimeBind {
 		//retBindList = append(retBindList, inputJobTimeBind[len(inputJobTimeBind) - 1 - index])
-		retBindList = append(retBindList, inputJobTimeBind[index])
+		retBindList = append(retBindList, jobLengthBind{jobTime.Job, len(jobTime.Job.Tasks)})
 	}
 	sort.SliceStable(retBindList, func(i, j int) bool {
-		return len(retBindList[i].Job.Tasks) >= len(retBindList[j].Job.Tasks)
+		return retBindList[i].Length >= retBindList[j].Length
 	})
 	return retBindList
 }
@@ -141,4 +141,9 @@ func sortByTaskNum(inputJobTimeBind []jobTimeBind) []jobTimeBind{
 type jobTimeBind struct {
 	Job   *api.JobInfo
 	Time int
+}
+
+type jobLengthBind struct {
+	Job   *api.JobInfo
+	Length int
 }

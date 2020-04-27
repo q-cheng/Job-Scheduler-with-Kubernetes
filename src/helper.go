@@ -129,8 +129,7 @@ func sortByTaskNum(inputJobTimeBind []jobTimeBind) []jobLengthBind{
 	var retBindList []jobLengthBind
 	for index := range inputJobTimeBind {
 		//retBindList = append(retBindList, inputJobTimeBind[len(inputJobTimeBind) - 1 - index])
-		retBindList = append(retBindList, jobLengthBind{inputJobTimeBind[len(inputJobTimeBind) - 1 - index].Job, len(inputJobTimeBind[len(inputJobTimeBind) - 1 - index].Job.Tasks)})
-		//retBindList = append(retBindList, jobLengthBind{inputJobTimeBind[index].Job, len(inputJobTimeBind[index].Job.Tasks)})
+		retBindList = append(retBindList, jobLengthBind{inputJobTimeBind[index].Job, len(inputJobTimeBind[index].Job.Tasks)})
 	}
 	sort.SliceStable(retBindList, func(i, j int) bool {
 		return retBindList[i].Length > retBindList[j].Length

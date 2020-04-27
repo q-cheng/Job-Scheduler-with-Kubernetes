@@ -21,7 +21,7 @@ func customFn(jobs []*api.JobInfo, nodes []*api.NodeInfo) map[*api.TaskInfo]*api
 		}
 		if flag == false {
 			temp := job.SlowDuration + int(time.Now().Unix()) - int(job.CreationTime.ProtoTime().Seconds)
-			if temp < 200 {
+			if temp < 260 {
 				jobTimeDic[job] = temp
 			}
 		} else {
